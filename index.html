@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <p>Click untuk merubah warna</p>
+
+    <button type="button" name="button" onclick="myFunction()">Ubah warna</button>
+
+    <script type="text/javascript">
+      function myFunction() {
+        var color = prompt("Ketikan warna yang kamu inginkan", "");
+        if (color != null) {
+          document.body.style.backgroundColor = color;
+        }
+      }
+    </script>
+
+  </body>
+</html>
